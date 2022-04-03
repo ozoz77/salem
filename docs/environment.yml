@@ -1,0 +1,24 @@
+name: salem-docs
+channels:
+  # Don't change to pkgs/main, as it causes random timeouts in readthedocs
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.8
+  - bottleneck
+  - cartopy
+  - ipykernel
+  - ipython
+  - netcdf4
+  - numpy
+  - numpydoc
+  - pandas
+  - rasterio
+  - sphinx
+  - matplotlib
+  - joblib
+  - geopandas
+  - xarray
+  - sphinx-gallery
+  - scikit-image
+  - motionless
