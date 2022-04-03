@@ -229,12 +229,14 @@ def download_demo_files():
 
 def get_demo_file(fname):
     """Returns the path to the desired demo file."""
-
+    return None
+    """
     d = download_demo_files()
     if fname in d:
         return d[fname]
     else:
         return None
+    """
 
 
 def get_natural_earth_file(res='lr'):
