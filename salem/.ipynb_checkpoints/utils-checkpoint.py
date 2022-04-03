@@ -192,6 +192,9 @@ def download_demo_files():
     Borrowed from OGGM.
     """
 
+    return None
+    
+    """
     master_zip_url = 'https://github.com/%s/archive/%s.zip' % \
                      (sample_data_gh_repo, sample_data_gh_commit)
     ofile = os.path.join(cache_dir,
@@ -222,7 +225,7 @@ def download_demo_files():
             out[filename] = os.path.join(root, filename)
 
     return out
-
+    """
 
 def get_demo_file(fname):
     """Returns the path to the desired demo file."""
